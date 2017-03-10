@@ -1,3 +1,10 @@
 body {
-  background-color: blue;
+  background-color: #82a43a;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28ps;
+}
+
+.project-image {
+  width: 50px;
 }
