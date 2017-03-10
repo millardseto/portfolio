@@ -8,3 +8,8 @@ body {
 .project-image {
   width: 50px;
 }
+
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+}
