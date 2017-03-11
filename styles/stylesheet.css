@@ -52,6 +52,10 @@ a:active {
 section {
   border: white 1px solid;
 
+  /* curve one corner */
+  border-top-left-radius: 80px 50px;
+
+  margin-bottom: 6px;
 }
 
 article {
@@ -59,6 +63,7 @@ article {
   padding: 6px;
   margin: 6px;
   background-color: #071D4C;
+
 }
 
 p::first-letter {
