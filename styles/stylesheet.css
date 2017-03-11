@@ -2,7 +2,8 @@ body {
   background-color: #82a43a;
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 28ps;
+  font-size: 18px;
+
 }
 
 .project-image {
@@ -14,13 +15,20 @@ h1 {
   font-size: 48px;
 }
 
-/* remove underline in links */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* remove underline in links and don't allow it to change colors when clicked */
 a:link {
     text-decoration: none;
+    color: white;
 }
 
 a:visited {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -29,4 +37,17 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+section {
+  border: white 1px solid;
+}
+
+
+
+
+article {
+  border: white 1px dotted;
+  padding: 6px;
+  margin: 6px;
 }
