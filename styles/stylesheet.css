@@ -1,5 +1,5 @@
 .menu-item {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 body {
@@ -7,6 +7,8 @@ body {
   color: #F49E21;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  max-width: 1200px;
+  min-width: 800px;
 
 }
 
@@ -27,7 +29,6 @@ h2, h3, h4, h5, h6 {
 
 section {
   background-color: #163475;
-  max-width: 800px;
   margin: 0 auto;
   padding: 12px;
 }
@@ -57,12 +58,16 @@ section {
   border: white 1px solid;
 
   /* curve one corner */
-  border-top-left-radius: 80px 50px;
+  border-top-left-radius: 50px 50px;
+
+  max-width: 700px;
 
   margin-bottom: 6px;
 }
 
 article {
+  /* curve one corner */
+  border-top-left-radius: 50px 50px;
   border: white 1px dotted;
   padding: 6px;
   margin: 6px;
@@ -71,9 +76,10 @@ article {
 }
 
 aside {
-  width: 230px;
+  width: 200px;
+  height: auto;
   float: right;
-  padding 6px;
+  padding: 6px;
   border: 1px solid white;
 }
 
