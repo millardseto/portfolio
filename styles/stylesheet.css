@@ -63,23 +63,18 @@ a:active {
 section {
   border: white 1px solid;
 
-  /* curve one corner */
-  border-top-left-radius: 50px 50px;
-
+  /* curve corner */
+  border-top-left-radius: 25px 25px;
+  border-bottom-left-radius: 25px 25px;
   width: 60%;
-
-
   margin-bottom: 6px;
 }
 
 article {
-  /* curve one corner */
-  border-top-left-radius: 50px 50px;
   border: white 1px dotted;
   padding: 12px;
   margin: 6px;
   background-color: #071D4C;
-
 }
 
 aside {
@@ -90,8 +85,6 @@ aside {
   border: 1px solid white;
   margin: 0 1.5%;
 }
-
-
 
 p::first-letter {
   font-size: 150%;
