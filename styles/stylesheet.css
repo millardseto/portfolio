@@ -7,10 +7,7 @@ body {
   color: #F49E21;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-/*
-  max-width: 1200px;
   min-width: 800px;
-*/
 }
 
 .project-image {
@@ -86,7 +83,7 @@ article {
 }
 
 aside {
-  width: 200px;
+  width: 30%;
   height: auto;
   float: right;
   padding: 6px;
