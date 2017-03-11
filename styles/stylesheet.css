@@ -1,3 +1,7 @@
+.menu-item {
+  font-size: 1.5rem;
+}
+
 body {
   background-color: #446CBF;
   color: #F49E21;
@@ -25,7 +29,7 @@ section {
   background-color: #163475;
   max-width: 800px;
   margin: 0 auto;
-  padding: 6px;
+  padding: 12px;
 }
 
 /* remove underline in links and don't allow it to change colors when clicked */
@@ -64,6 +68,13 @@ article {
   margin: 6px;
   background-color: #071D4C;
 
+}
+
+aside {
+  width: 230px;
+  float: right;
+  padding 6px;
+  border: 1px solid white;
 }
 
 p::first-letter {
