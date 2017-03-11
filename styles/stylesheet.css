@@ -1,8 +1,8 @@
 body {
-  background-color: #82a43a;
-  color: white;
+  background-color: #446CBF;
+  color: #F49E21;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 
 }
 
@@ -13,11 +13,19 @@ body {
 h1 {
   font-family: 'Tangerine', serif;
   font-size: 48px;
+  color: white;
 }
 
+h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+
 section {
+  background-color: #163475;
   max-width: 800px;
   margin: 0 auto;
+  padding: 6px;
 }
 
 /* remove underline in links and don't allow it to change colors when clicked */
@@ -39,15 +47,20 @@ a:active {
     text-decoration: underline;
 }
 
+
+/* Layout */
 section {
   border: white 1px solid;
+
 }
-
-
-
 
 article {
   border: white 1px dotted;
   padding: 6px;
   margin: 6px;
+  background-color: #071D4C;
+}
+
+p::first-letter {
+  font-size: 150%;
 }
