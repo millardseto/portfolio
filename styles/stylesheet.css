@@ -27,11 +27,19 @@ h2, h3, h4, h5, h6 {
   color: white;
 }
 
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
 
 section {
   background-color: #163475;
   margin: 0 auto;
   padding: 12px;
+  float:left;
+  width: 63%;
 }
 
 /* remove underline in links and don't allow it to change colors when clicked */
@@ -83,7 +91,10 @@ aside {
   float: right;
   padding: 6px;
   border: 1px solid white;
+  margin: 0 1.5%;
 }
+
+
 
 p::first-letter {
   font-size: 150%;
