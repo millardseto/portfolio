@@ -1,0 +1,101 @@
+.menu-item {
+  font-size: 1.2rem;
+}
+
+body {
+  background-color: #446CBF;
+  color: #F49E21;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.7rem;
+  min-width: 800px;
+}
+
+.project-image {
+  width: 50px;
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 3rem;
+  color: white;
+}
+
+h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+section {
+  background-color: #163475;
+  margin: 0 auto;
+  padding: 12px;
+  float:left;
+  width: 63%;
+}
+
+/* remove underline in links and don't allow it to change colors when clicked */
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+/* Layout */
+section {
+  border: white 1px solid;
+
+  /* curve corner */
+  border-top-left-radius: 25px 25px;
+  border-bottom-left-radius: 25px 25px;
+  width: 60%;
+  margin-bottom: 6px;
+}
+
+article {
+  border: white 1px dotted;
+  padding: 12px;
+  margin: 6px;
+  background-color: #071D4C;
+}
+
+aside {
+  width: 30%;
+  height: auto;
+  float: right;
+  padding: 6px;
+  border: 1px solid white;
+  margin: 0 1.5%;
+}
+
+/* The footer must be wider than the section, else it may appear under the aside.
+alternatively, make the aside high enough so the footer is really at the bottom
+of page.*/
+footer {
+  float: left;
+  width: 600px;
+}
+
+.long-text::first-letter {
+  font-size: 150%;
+}
