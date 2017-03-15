@@ -68,7 +68,7 @@ section {
   /* curve corner */
   border-top-left-radius: 25px 25px;
   border-bottom-left-radius: 25px 25px;
-  width: 60%;
+  width: 70%;
   margin-bottom: 6px;
 }
 
@@ -80,8 +80,7 @@ article {
 }
 
 aside {
-  width: 30%;
-  height: auto;
+  width: 20%;
   float: right;
   padding: 6px;
   border: 1px solid white;
