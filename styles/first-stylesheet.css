@@ -88,10 +88,10 @@ section {
 }
 
 article {
-  border: white 1px dotted;
+  /*border: white 1px dotted;*/
   padding: 12px;
   margin: 6px;
-  background-color: #071D4C;
+  /*background-color: #071D4C;*/
 }
 
 aside {
