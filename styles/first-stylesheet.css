@@ -12,14 +12,19 @@ body {
   min-width: 800px;
 }
 
+.project a {
+  color: white;
+}
 .project-image {
   width: 50px;
   transition-duration: 2s;
+  box-shadow: 6px 6px 6px grey;
 }
 
 .project-image:hover {
   width: 60px;
   transition-duration: 2s;
+  transform: rotate(10deg);
 }
 
 h1 {
@@ -52,6 +57,7 @@ nav a:link {
     text-decoration: none;
     color: white;
     padding:.5rem;
+    transition-duration: .5s;
 }
 
 nav a:visited {
@@ -62,7 +68,7 @@ nav a:visited {
 nav a:hover {
     background-color: white;
     color: black;
-    transition-duration: .3s;
+    transition-duration: 1s;
 }
 
 nav a:active {
@@ -103,6 +109,11 @@ footer {
   color: white;
   float: left;
   width: 600px;
+}
+
+/* keep the footer links one color */
+footer a {
+  color: white;
 }
 
 .long-text::first-letter {
