@@ -91,6 +91,7 @@ aside {
 alternatively, make the aside high enough so the footer is really at the bottom
 of page.*/
 footer {
+  color: white;
   float: left;
   width: 600px;
 }
